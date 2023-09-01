@@ -17,7 +17,7 @@ class ProductService implements IProductService
 
     public function getAllProducts()
     {
-        dd('Service');
+        return 'dummyText';
     }
 
     public function addProduct(StoreProductRequest $request){}

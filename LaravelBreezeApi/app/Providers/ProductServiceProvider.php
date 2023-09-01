@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use App\Http\Services\ProductService;
+use App\Http\Services\Abstractions\IProductService;
 
 class ProductServiceProvider extends ServiceProvider
 {
